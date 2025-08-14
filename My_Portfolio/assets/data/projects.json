@@ -1,0 +1,51 @@
+[
+  {
+    "title": "College Management System",
+    "description": "Full\u2011stack Django + Oracle SQL app with dashboards for Admin, Faculty, and Students to manage courses, attendance, and grades.",
+    "tags": [
+      "Full-Stack",
+      "Django",
+      "Oracle SQL"
+    ],
+    "demo": "https://college-management-system-bau8.onrender.com/",
+    "source": "#",
+    "image": "assets/img/project-1.webp"
+  },
+  {
+    "title": "Online Bookstore Web App",
+    "description": "Browse and view book details. Built with Django (MVT), admin-side book management, and styled frontend.",
+    "tags": [
+      "Full-Stack",
+      "Django"
+    ],
+    "demo": "https://bookstore-aoer.onrender.com/",
+    "source": "#",
+    "image": "assets/img/project-2.webp"
+  },
+  {
+    "title": "Filterable Image Gallery",
+    "description": "Interactive gallery with category-based filtering using HTML, CSS, and JavaScript.",
+    "tags": [
+      "Frontend",
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "demo": "https://filterable-image-gallery-one.vercel.app/",
+    "source": "#",
+    "image": "assets/img/project-3.webp"
+  },
+  {
+    "title": "Internet Speed Test Application",
+    "description": "Web tool to measure internet download/upload speeds and show real-time results.",
+    "tags": [
+      "Frontend",
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "demo": "https://internet-speed-detector-281e.vercel.app/",
+    "source": "#",
+    "image": "assets/img/project-4.webp"
+  }
+]

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhargava Kurapati — Portfolio</title>
+  <meta name="description" content="Aspiring Software Developer skilled in Python, Django and Oracle SQL. Projects, skills, and contact." />
+  <meta property="og:title" content="Bhargava Kurapati — Portfolio" />
+  <meta property="og:description" content="Python/Django full‑stack projects and skills." />
+  <meta property="og:type" content="website" />
+  <link rel="preload" href="assets/img/hero.webp" as="image" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="brand" aria-label="Home">Bhargava Kurapati<span></span></a>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="navMenu" class="nav-menu" role="menu">
+        <li role="none"><a role="menuitem" href="#about">About</a></li>
+        <li role="none"><a role="menuitem" href="#skills">Skills</a></li>
+        <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+        <li role="none"><a role="menuitem" href="#experience">Education</a></li>
+        <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+        <li role="none">
+          <a class="btn primary small" href="assets/Bhargava_Kurapati_Resume.pdf" download>Download CV</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero container" aria-label="Introduction">
+      <div class="hero__text">
+        <h1>Python Full‑Stack Developer</h1>
+        <p>I'm <strong>Bhargava Kurapati</strong>, an aspiring software developer with hands‑on experience building full‑stack applications using <strong>Python, Django, and Oracle SQL</strong>. I enjoy turning ideas into clean, usable products and learning by shipping real projects.</p>
+        <div class="actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <ul class="quick-facts" aria-label="Highlights">
+          <li>✅ Django · Flask</li>
+          <li>✅ Oracle SQL</li>
+          <li>✅ HTML · CSS · JavaScript</li>
+          <li>✅ Deploy: Render · Vercel</li>
+        </ul>
+      </div>
+      <picture class="hero__art">
+        <img src="assets/img/hero.webp" alt="Developer at a desk illustration" width="560" height="420" loading="eager" />
+      </picture>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container">
+      <h2>About Me</h2>
+      <p>Aspiring Software Developer focused on web development and data management. I build full‑stack apps with Python and Django, design relational schemas in Oracle SQL, and deliver responsive UIs with HTML, CSS, and JavaScript.</p>
+      <div class="about-grid">
+        <div>
+          <h3>What I Do</h3>
+          <ul class="checklist">
+            <li>Design RESTful backends with Django (MVT) and Flask</li>
+            <li>Build responsive frontends with HTML, CSS, and JavaScript</li>
+            <li>Model data with Oracle SQL and use Git/GitHub for version control</li>
+            <li>Deploy to Render, Vercel, or GitHub Pages</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">Django</span>
+        <span class="chip">Flask</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Oracle SQL</span>
+        <span class="chip">Git</span>
+        <span class="chip">GitHub</span>
+        <span class="chip">REST API</span>
+      </div>
+      <div class="bars">
+        <div class="bar"><span>Python</span><div style="--value: 90%"></div></div>
+        <div class="bar"><span>Django</span><div style="--value: 85%"></div></div>
+        <div class="bar"><span>JavaScript</span><div style="--value: 75%"></div></div>
+        <div class="bar"><span>Oracle SQL</span><div style="--value: 80%"></div></div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+        <h2>Projects</h2>
+      <div id="projectGrid" class="grid projects" aria-live="polite">
+        <!-- Populated by JS from assets/data/projects.json -->
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="experience" class="section container">
+      <h2>Education</h2>
+      <ol class="timeline">
+        <li>
+          <div class="tl-card">
+            <h3>B.Tech — Electrical & Electronics Engineering (EEE)</h3>
+            <p>Vignana Bharathi Institute of Technology (JNTU Hyderabad) — 65.93%</p>
+            <span class="muted">2023</span>
+          </div>
+        </li>
+        <li>
+          <div class="tl-card">
+            <h3>Diploma — Electrical & Electronics Engineering</h3>
+            <p>Govt. Polytechnic College, Yadagirigutta — 68.45%</p>
+            <span class="muted">2020</span>
+          </div>
+        </li>
+        <li>
+          <div class="tl-card">
+            <h3>SSC</h3>
+            <p>Vidya Jyothi High School, Raigir — CGPA 7.5</p>
+            <span class="muted">2017</span>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <div class="card">
+          <ul class="meta">
+            <li><strong>Email:</strong> <a href="mailto:kurapati.bhargava1236@gmail.com">kurapati.bhargava1236@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+917386999881">+91 73869 99881</a></li>
+            <li><strong>Location:</strong> Hyderabad, Telangana, India (IST)</li>
+          </ul>
+        </div>
+    </section>
+  </main>
+
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Bhargava Kurapati. All rights reserved.</p>
+      <div class="socials">
+        <a href="https://github.com/BHARGAVA1811" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a><br>
+        <a href="https://www.linkedin.com/in/bhargava-kurapati-751a412a0" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="X">X</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
